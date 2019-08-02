@@ -1,0 +1,20 @@
+Max development GP_accuracy:		0.6363636255264282
+Corresponding development GP_CE:	0.8533545732498169
+Corresponding development DLR_MAE:	5.529879093170166
+Corresponding development DLR_MSE:	44.111698150634766
+Corresponding development total_loss:	89.07675170898438
+
+Corresponding test DLR_MSE:	38.92710876464844
+Corresponding test DLR_MAE:	5.044641971588135
+Corresponding test GP_CE:		0.7494703531265259
+Corresponding test GP_accuracy:	0.7111111283302307
+
+Corresponding test total_loss:	78.60369110107422
+
+Corresponding training DLR_MSE:		39.63983154296875
+Corresponding training DLR_MAE:		5.066640853881836
+Corresponding training GP_CE:	2.3489010334014893
+Corresponding training GP_accuracy:	0.561904788017273
+Corresponding training total_loss:	81.6285629272461
+
+Epoch number:		15

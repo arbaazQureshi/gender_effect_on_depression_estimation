@@ -1,0 +1,19 @@
+Min test DLR_MSE:		42.3944091796875
+Corresponding test DLR_MAE:	5.305348873138428
+Corresponding test GP_CE:	0.5546575784683228
+Corresponding test GP_accuracy:	0.7555555701255798
+Corresponding test total_loss:	42.949066162109375
+
+Corresponding dev DLR_MSE:		47.06867980957031
+Corresponding dev DLR_MAE:		5.677588939666748
+Corresponding dev GP_CE:	0.6267648339271545
+Corresponding dev GP_accuracy:	0.5757575631141663
+Corresponding dev total_loss:	47.6954460144043
+
+Corresponding training DLR_MSE:		19.857303619384766
+Corresponding training DLR_MAE:		3.5299179553985596
+Corresponding training GP_CE:	0.7172116041183472
+Corresponding training GP_accuracy:	0.5904762148857117
+Corresponding training total_loss:	20.574514389038086
+
+Epoch number:		32

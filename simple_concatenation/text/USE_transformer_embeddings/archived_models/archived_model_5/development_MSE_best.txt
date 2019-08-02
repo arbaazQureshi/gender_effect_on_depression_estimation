@@ -1,0 +1,7 @@
+Min development MSE:		25.132204055786133
+Corresponding development MAE:	4.264430046081543
+Corresponding test MSE:		23.19485092163086
+Corresponding test MAE:		4.005912780761719
+Corresponding training MSE:		15.720680236816406
+Corresponding training MAE:		3.219135284423828
+Epoch number:		96

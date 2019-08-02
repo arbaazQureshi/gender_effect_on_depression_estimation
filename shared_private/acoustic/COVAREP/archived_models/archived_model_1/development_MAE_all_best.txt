@@ -1,0 +1,22 @@
+Min development MAE all:	4.919423721053383
+Corresponding development MSE all:		42.543726628825645
+Corresponding test MSE all:		45.173497418015906
+Corresponding test MAE all:		5.2222596128781635
+Corresponding training MSE all:		2.546360476299094
+Corresponding training MAE:		1.1515611343440555
+
+Corresponding training MSE male:		1.0682347139284387
+Corresponding training MAE male:		0.8393487159221892
+Corresponding development MSE male:		49.18356938733574
+Corresponding development MAE male:	5.452195040881634
+Corresponding test MSE male:		53.10943339487109
+Corresponding test MAE male:		5.370125722317469
+
+Corresponding training MSE female:		4.763549119855077
+Corresponding training MAE female:		1.6198797619768552
+Corresponding development MSE female:		36.294462856110265
+Corresponding development MAE female:	4.417991890626795
+Corresponding test MSE female:		38.22955343826761
+Corresponding test MAE female:		5.092876767118772
+
+Epoch number:		100

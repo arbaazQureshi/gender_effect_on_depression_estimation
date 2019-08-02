@@ -1,0 +1,32 @@
+import numpy as np
+
+from keras.models import Model, load_model
+from keras.layers import Dense, CuDNNLSTM, Input, Concatenate, Dropout, Masking, Lambda
+import keras
+import keras.backend as K
+
+def load_model(location=None):
+
+	if(location != None):
+		model = keras.models.load_model(location)
+		print("Loaded the model.")
+		return model
+
+	X = Input(shape = (400, 512,))
+
+	Y = CuDNNLSTM(125, name = 'lstm_cell', return_sequences = True)(X)
+
+	Y = Lambda(lambda x: K.sum(Y, axis = 1))(Y)
+	Y = Dropout(rate = 0.3)(Y)
+
+	Y = Dense(85, activation = 'relu')(Y)
+	Y = Dropout(rate = 0.25)(Y)
+	
+	Y_dep = Dense(1, activation = None, name = 'DLR')(Y)
+	Y_gender = Dense(2, activation = 'softmax', name = 'GP')(Y)
+
+	model = Model(inputs = X, outputs = [Y_dep, Y_gender])
+
+	print("Created a new model.")
+
+	return model
